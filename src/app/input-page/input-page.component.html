@@ -1,0 +1,42 @@
+<div class="card mt-5" style="margin:auto;width: 600px;">
+    <div class="card-body">
+      <h5 class="card-title">Prediction Panel</h5>
+      <div class="form-group">
+        <label >NewYork</label>
+        <input type="text" #ny class="form-control" >
+        <span>Enter 1 if You are Interssted in NewYork</span>
+      </div>
+      <div class="form-group">
+        <label >California</label>
+        <input type="text" #cal class="form-control" >
+        <span>Enter 1 if You are Interssted in California</span>
+
+      </div>
+      <div class="form-group">
+        <label >Florida</label>
+        <input type="text" #fol class="form-control" >
+        <span>Enter 1 if You are Interssted in Florida</span>
+
+      </div>
+      <div class="form-group">
+        <label >RnD_Spend</label>
+        <input type="text" #rnd class="form-control" >
+        <span>Enter the Ressources and Developement Spendings</span>
+
+      </div>
+      <div class="form-group">
+        <label >Admin_Spend</label>
+        <input type="text" #admin class="form-control" >
+        <span>Enter the Administration Spendings</span>
+
+      </div>
+      <div class="form-group">
+        <label >Market_Spend</label>
+        <input type="text" #mark class="form-control" >
+        <span>Enter the Marketing Spendings </span>
+
+      </div>
+      <button type="submit" class="btn btn-primary" (click)="predict(ny.value,cal.value,fol.value,rnd.value,admin.value,mark.value)">Predict</button>
+    </div>
+  </div>
+  <router-outlet></router-outlet>
