@@ -62,7 +62,7 @@
     "tslint": "~5.15.0",
     "typescript": "~3.4.3",
     "ts-loader": "4.2.0",
-    "webpack-cli": "2.1.2",
+    "webpack-cli": "5.0.1",
     "opencollective": "^1.0.3",
     "serverless": "1.40.0",
     "serverless-apigw-binary": "^0.4.4"
